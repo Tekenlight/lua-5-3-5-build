@@ -12,7 +12,7 @@ PLAT= none
 # LUA_ROOT, LUA_LDIR, and LUA_CDIR in luaconf.h.
 #INSTALL_TOP= /usr/local
 
-INSTALL_TOP= $(DESTDIR)/usr/local
+INSTALL_TOP ?= $(DESTDIR)/usr/local
 INSTALL_BIN= $(INSTALL_TOP)/bin
 INSTALL_INC= $(INSTALL_TOP)/include
 INSTALL_LIB= $(INSTALL_TOP)/lib
